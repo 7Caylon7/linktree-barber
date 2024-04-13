@@ -15,7 +15,7 @@
       <div class="contato">
         <h3>Contato:</h3>
         <button><a href="https://api.whatsapp.com/message/VN4QR33RKZ2ID1?autoload=1&app_absent=0" target="_blank"><span class="pi pi-whatsapp" style="font-size: 1.5rem;"><strong style="font-family: Pirata; font-size: 30px;"> Whatsapp</strong></span></a></button>
-        <button><a href="https://www.instagram.com/jpbarbeiro10" target="_blank"><span class="pi pi-instagram" style="font-size: 1.5rem;"><strong style="font-family: Pirata; font-size: 30px;"> Instagram</strong></span></a></button>
+        <button><a href="https://www.instagram.com/jpbarbeiro10?igsh=MXY0Z3o0NWZydndidA==" target="_blank"><span class="pi pi-instagram" style="font-size: 1.5rem;"><strong style="font-family: Pirata; font-size: 30px;"> Instagram</strong></span></a></button>
         <!-- <button><a href="#" target="_blank"><span class="pi pi-facebook" style="font-size: 1.5rem;"><strong style="font-family: Pirata; font-size: 30px;"> Facebook</strong></span></a></button> -->
         <button><a href="https://maps.app.goo.gl/2TfigiAguhqiWvrFA" target="_blank"><span class="pi pi-map-marker" style="font-size: 1.5rem;"><strong style="font-family: Pirata; font-size: 30px;"> Endereço</strong></span></a></button>
       </div>
@@ -149,8 +149,12 @@ export default {
   color: #fff;
 }
 
-
+.contato button:hover {
+    transform: none;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
 }
 
-
+}
 </style>
